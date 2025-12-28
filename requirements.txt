@@ -1,0 +1,24 @@
+streamlit
+pandas
+numpy
+torch
+torchvision
+ultralytics
+scikit-learn
+xgboost
+plotly
+joblib
+requests
+python-dotenv
+Pillow
+# --- LangChain & LLM Stack ---
+langchain
+langchain-community
+langchain-ollama
+langchain-huggingface
+langchain-text-splitters
+faiss-cpu
+sentence-transformers
+pypdf
+transformers
+accelerate

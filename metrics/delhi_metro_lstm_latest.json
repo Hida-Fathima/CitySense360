@@ -1,0 +1,19 @@
+{
+    "model_name": "Delhi_Metro_LSTM",
+    "dataset": "Delhi Metro 2022-24",
+    "timestamp": "2025-12-26 10:25:35",
+    "data_stats": {
+        "train_samples": 852,
+        "test_samples": 213
+    },
+    "metrics": {
+        "RMSE": 243.68,
+        "Accuracy_Pct": 92.91,
+        "R2_Score": -0.0011
+    },
+    "parameters": {
+        "type": "Bi-LSTM",
+        "lookback": 30,
+        "hidden": 128
+    }
+}

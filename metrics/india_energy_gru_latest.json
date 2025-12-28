@@ -1,0 +1,19 @@
+{
+    "model_name": "India_Energy_GRU",
+    "dataset": "India Electricity (Summed)",
+    "timestamp": "2025-12-25 16:55:07",
+    "data_stats": {
+        "train_samples": 45543,
+        "test_samples": 11386
+    },
+    "metrics": {
+        "RMSE": 2255.73,
+        "Accuracy_Pct": 95.65,
+        "R2_Score": 0.5689
+    },
+    "parameters": {
+        "type": "GRU",
+        "layers": 2,
+        "hidden": 64
+    }
+}

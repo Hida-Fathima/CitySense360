@@ -1,0 +1,18 @@
+{
+    "model_name": "YOLOv8m-Cls_Accident",
+    "dataset": "CCTV Accident Classification",
+    "timestamp": "2025-12-26 16:31:34",
+    "data_stats": {
+        "train_samples": "Auto",
+        "test_samples": "Auto"
+    },
+    "metrics": {
+        "Top1_Accuracy": 94.9,
+        "Top5_Accuracy": 100.0
+    },
+    "parameters": {
+        "epochs": 20,
+        "imgsz": 224,
+        "type": "Classification"
+    }
+}

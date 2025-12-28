@@ -1,0 +1,24 @@
+# 1. Python System Files
+__pycache__/
+*.py[cod]
+venv/
+.env
+.DS_Store
+
+# 2. Heavy Datasets
+data/vision/
+data/safety/
+
+# 3. Large Model Checkpoints (>100MB)
+# models/complaints_bert/
+
+# 4. Vector Store (Re-generate this on the server)
+models/vector_store/
+
+# 5. Training Logs
+runs/
+*.log
+
+# Ignore huge files
+data/complaints/complaints.json
+models/complaints_bert/model.safetensors

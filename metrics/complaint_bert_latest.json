@@ -1,0 +1,16 @@
+{
+    "model_name": "Complaint_BERT",
+    "dataset": "Real Complaints (81 Depts)",
+    "timestamp": "2025-12-25 19:19:36",
+    "data_stats": {
+        "train_samples": 137496,
+        "test_samples": 34375
+    },
+    "metrics": {
+        "Accuracy_Pct": 84.3
+    },
+    "parameters": {
+        "type": "DistilBERT (Real Data)",
+        "classes": 81
+    }
+}

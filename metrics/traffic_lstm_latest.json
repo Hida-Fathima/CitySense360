@@ -1,0 +1,19 @@
+{
+    "model_name": "Traffic_LSTM",
+    "dataset": "City Traffic Cleaned",
+    "timestamp": "2025-12-25 17:13:34",
+    "data_stats": {
+        "train_samples": 38544,
+        "test_samples": 9636
+    },
+    "metrics": {
+        "RMSE": 381.58,
+        "Accuracy_Pct": 92.52,
+        "R2_Score": 0.9624
+    },
+    "parameters": {
+        "type": "Bi-LSTM (Upgraded)",
+        "epochs": 100,
+        "hidden": 128
+    }
+}
