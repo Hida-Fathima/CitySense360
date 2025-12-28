@@ -22,3 +22,4 @@ runs/
 # Ignore huge files
 data/complaints/complaints.json
 models/complaints_bert/model.safetensors
+reports/
