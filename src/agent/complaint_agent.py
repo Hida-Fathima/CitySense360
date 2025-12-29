@@ -46,7 +46,9 @@ def classify_complaint_tool(text: str) -> str:
 llm = ChatOllama(
     model="llama3", 
     format="json",   
-    temperature=0.1 
+    temperature=0.1,
+    # base_url="http://localhost:11434"        
+    #base_url="http://host.docker.internal:11434"
 )
 
 # --- HELPER: FORCE TEXT (Prevents TypeErrors) ---

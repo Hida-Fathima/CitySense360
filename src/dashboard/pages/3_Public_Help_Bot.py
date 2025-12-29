@@ -64,7 +64,9 @@ def load_rag_pipeline():
         # 2. Load Ollama (Llama 3)
         llm = ChatOllama(
             model=Config.LLM_MODEL_NAME,
-            temperature=Config.LLM_TEMPERATURE
+            temperature=Config.LLM_TEMPERATURE,
+            # base_url="http://localhost:11434",
+            #base_url="http://host.docker.internal:11434"
         )
 
         prompt_template = PromptTemplate(
