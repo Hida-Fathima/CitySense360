@@ -73,7 +73,7 @@
 
 Includes Analytics Dashboard & Forecasting modules only. AI Agents are disabled.
 
-**Live Demo:** 🔗 Click Here to View Live App (Replace this with your actual link later)
+**Live Demo:** https://citysense360-dy242m88ryxqfxagwkrryp.streamlit.app/
 
 **Branch:** `cloud-lite`
 
