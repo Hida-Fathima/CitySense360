@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+torch
+torchvision
+ultralytics
+xgboost
+scikit-learn
+plotly
+joblib
+Pillow
+requests
+python-dotenv
+opencv-python-headless
