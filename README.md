@@ -44,7 +44,45 @@
 
 ---
 
-## ⚙️ Installation & Setup
+## 🚀 Deployment & Installation
+
+### Option 1: Full Version (Docker) - Recommended
+*Includes Generative AI Agents (RAG), Chatbots & Predictive Analytics.*
+**Prerequisites:** [Docker Desktop](https://www.docker.com/) and [Ollama](https://ollama.com/) running locally.
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Hida-Fathima/CitySense360.git
+   cd CitySense360
+   ```
+2. **Build the container:**
+
+   ```bash
+   docker build -t citysense360 .
+   ```
+3. **Run the app:**
+
+   ```bash
+   docker run -p 8501:8501 citysense360
+   ```
+*Note: Ensure your local Ollama server is running for AI features.*
+
+
+### Option 2: Lite Version (Streamlit Cloud)
+
+Includes Analytics Dashboard & Forecasting modules only. AI Agents are disabled.
+
+**Live Demo:** 🔗 Click Here to View Live App (Replace this with your actual link later)
+
+**Branch:** `cloud-lite`
+
+**Features:** Metro, Traffic, Energy, and Pollution analytics are fully operational.
+
+*Note: RAG Agents are disabled in this version due to cloud resource limits.*
+
+
+### Option 3: Full Version (Streamlit local)
 
 ### 1. Clone the Repository
 
