@@ -1,8 +1,0 @@
-venv/
-__pycache__/
-.git/
-.vscode/
-reports/
-*.pt
-!models/road_damage_pro.pt
-!models/safety_classifier.pt
