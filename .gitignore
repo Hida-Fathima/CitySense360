@@ -23,3 +23,11 @@ runs/
 data/complaints/complaints.json
 models/complaints_bert/model.safetensors
 reports/
+
+# Lite Branch Ignores
+Dockerfile
+src/agent/
+models/complaints_bert/
+models/vector_store/
+src/dashboard/pages/3_Public_Help_Bot.py
+src/dashboard/pages/1_Complaint_Portal.py
